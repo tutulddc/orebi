@@ -1,0 +1,65 @@
+
+title
+new arriaval er rest part
+
+
+
+Menu: 1320 x 80
+Home
+Shop
+About
+Contacts
+Journal
+
+
+
+Product
+Login
+Signup
+My_account
+Cart
+Checkout
+404
+
+
+Export logo
+
+575 Crescent Ave. Quakertown, PA 18951
+2020 Orebi Minimal eCommerce Figma Template by Adveits
+
+problems:
+
+------------------homes---------------
+1. menu hover
+	(when font weight are changed other menus' positions are 		affected)
+
+2.	dropdown menu not staying in responsive mode(320px-575px)
+
+
+--------------------products---------------
+3.	pagination in product page and sidebar
+
+4.	sort by category, number of item per page	
+
+------------------contact form--------------
+5.	overlay information on google map
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3.		

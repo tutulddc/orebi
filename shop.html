@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orebi</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/products.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+   
+    
+<!-- --------------------------NAV Start-------------------------- -->
+<nav id="main_menu" class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="images/logo.png" alt="Logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav menu-all m-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="shop.html">Shop</a>
+            <ul class="dropdown-link">
+              <li><a href="products - inside.html">Product Inside</a></li>
+              <li><a href="#!">Category  2</a></li>
+              <li><a href="#!">Category  3</a></li>
+              <li><a href="#!">Category  4 <label class="badge bg-danger text-white px-2 ms-1">New</label></a></li>
+              <li><a href="#!"> Category  5<label class="badge bg-danger text-white px-1 ms-3">New</label></a></li>
+            </ul>            
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="contacts.html">Contacts</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="journal.html">Journal</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="login.html">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="signup.html">Sign Up</a>
+          </li>          
+        </ul>
+        <!-- <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link active trial" href="#">Contact Us</a>
+              </li>
+        </ul>         -->
+      </div>
+    </div>
+  </nav>
+<nav id="menu_bottom" class="navbar navbar-expand bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#"><i class="fa fa-bars" aria-hidden="true"></i> Shop by Category</a>
+      <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button> -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav menu-all m-auto mb-2 mb-lg-0">
+          <div class="input-group">
+            <input class="form-control border-end-0 border" type="search" placeholder="Search Products" id="example-search-input">
+            <span class="input-group-append">
+                <button class="btn btn-outline-secondary bg-white border-start-0 border-bottom-0 border ms-n5" type="button">
+                    <i class="fa fa-search"></i>
+                </button>
+            </span>
+        </div>
+        </ul>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 icons">
+            <li class="nav-item">
+                <a class="nav-link active" href="#"><i class="fa fa-user" aria-hidden="true"></i> 
+                  <select name="" id="">
+                    <option selected class=" border-0"><i class="fa fa-caret-down" aria-hidden="true"></i></option>
+                    <option value="1">Option-1</option>
+                    <option value="2">Option-2</option>
+                    <option value="3">Option-3</option>
+                  </select>
+
+              
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+            </li>
+        </ul>        
+      </div>
+    </div>
+  </nav>
+
+<!-- --------------------------NAVend-------------------------- -->
+
+
+
+<!-- --------------------------sideBar and products starts-------------------------- -->
+
+
+
+<div class="main">
+  <div class="container">
+    <h2 class="page-title">Products</h2>
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+      <li class="breadcrumb-item active">Products</li> 
+    </ol>
+
+    <div class="products">
+      <div class="row">
+        <div class="col-lg-3">
+          <!-- <h6 >Shop by Category</h6> -->
+          <div class="sideBar">
+            <div class="accordion container">
+              <div class="accordion-item">
+                  <h2 class="accordion-button acc-mybutton" data-bs-target="#childOne" data-bs-toggle="collapse">Shop by Category</h2>
+                  <div id="childOne" class="accordion-collapse collapse show">
+                      <div class="accordion-body acc-mybody bg-light">
+                          <ul>
+                            <li><a href="#!">Category-1</a></li>
+                            <li><a href="#!">Category-2</a></li>
+                            <li><a href="#!">Category-3</a></li>
+                            <li><a href="#!">Category-4</a></li>
+                            <li><a href="#!">Category-5</a></li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+              <div class="accordion-item">
+                  <h2 class="accordion-button acc-mybutton" data-bs-target="#child2" data-bs-toggle="collapse">Shop by Color</h2>
+                  <div id="child2" class="accordion-collapse collapse show">
+                      <div class="accordion-body acc-mybody bg-light">
+                          <ul>
+                            <li><a href="#!"><i class="fa fa-circle color p-cat-1" aria-hidden="true"></i> Color-1</a></li>
+                            <li><a href="#!"><i class="fa fa-circle color p-cat-2" aria-hidden="true"></i> Color-2</a></li>
+                            <li><a href="#!"><i class="fa fa-circle color p-cat-3" aria-hidden="true"></i> Color-3</a></li>
+                            <li><a href="#!"><i class="fa fa-circle color p-cat-4" aria-hidden="true"></i> Color-4</a></li>
+                            <li><a href="#!"><i class="fa fa-circle color p-cat-5" aria-hidden="true"></i> Color-5</a></li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+              <div class="accordion-item">
+                  <h2 class="accordion-button acc-mybutton" data-bs-target="#child3" data-bs-toggle="collapse">Shop by Brand</h2>
+                  <div id="child3" class="accordion-collapse collapse show">
+                      <div class="accordion-body acc-mybody bg-light">
+                          <ul>
+                            <li><a href="#!">Brand-1</a></li>
+                            <li><a href="#!">Brand-2</a></li>
+                            <li><a href="#!">Brand-3</a></li>
+                            <li><a href="#!">Brand-4</a></li>
+                            <li><a href="#!">Brand-5</a></li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+              <div class="accordion-item">
+                  <h2 class="accordion-button acc-mybutton" data-bs-target="#child4" data-bs-toggle="collapse">Shop by Price</h2>
+                  <div id="child4" class="accordion-collapse collapse show">
+                      <div class="accordion-body acc-mybody bg-light">
+                          <ul>
+                            <li><a href="#!">$0.00-$9.99</a></li>
+                            <li><a href="#!">$10.00-$19.99</a></li>
+                            <li><a href="#!">$20.00-$29.99</a></li>
+                            <li><a href="#!">$30.00-$39.99</a></li>
+                            <li><a href="#!">$40.00-$49.99</a></li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+            </div>            
+          </div>
+        </div>
+
+        <div class="col-lg-9">
+          <div class="product-top d-flex justify-content-around ">
+            <div class="icons">
+              <a href="#!"><i class="fa fa-list text-dark" aria-hidden="true"></i></a>
+              <a href="#!"><i class="fa fa-th-large text-dark" aria-hidden="true"></i>
+              </a>
+            </div>
+            <div class="featured-sort d-flex pb-2">
+              <label class="pt-2" for="sortBy">SortBy:</label>
+              <select class="form-select ms-2" aria-label="Default select example">
+                <option selected>Category</option>
+                <option value="1">Color</option>
+                <option value="2">Brand</option>
+                <option value="3">Price</option>
+              </select>
+            </div>
+            <div class="page-show d-flex pb-2">
+              <label class="pt-2" for="sortBy">Show:</label>
+              <select class="form-select ms-2" aria-label="Default select example">
+                <option selected>10</option>
+                <option value="1">10</option>
+                <option value="2">20</option>
+                <option value="3">30</option>
+              </select>
+            </div>
+
+          </div>
+
+<!-- -------------------------------products----------------------------------------- -->          
+          <div class="row">
+            <div class="col-lg-4">
+
+              
+              <div class="item">
+                <a href="#" class="btn-new">New</a>
+                <div class="img">
+                    
+                  <a href="products - inside.html"><img src="images/best-sellers-2.png" alt=""></a>
+                </div>
+                <div class="bottom-top">
+                  <a href="#!">
+                    <p>Basic Crew Neck Tee</p>
+                    <span>$44.00</span>
+                  </a>
+                  <span href="#">Black</span>
+                </div>
+    
+                <div class="product-overlay">
+                  <div class="social-icon dif">
+                      <a href="#">Add to wish list  <i class="fa fa-heart"></i></a>
+                      <a href="#">Compare  <i class="fa fa-repeat"></i></a>
+                      <a href="cart.html">Add to cart  <i class="fa fa-shopping-cart"></i></a>
+                  </div>
+                </div>
+
+              </div>              
+            </div>
+            <div class="col-lg-4">
+              <div class="item">
+                <a href="#" class="btn-new">New</a>
+                <div class="img">
+                  <a href="products - inside.html"><img src="images/best-sellers-3.png" alt=""></a>
+                </div>
+                <div class="bottom-top">
+                  <a href="#!">
+                    <p>Basic Crew Neck Tee</p>
+                    <span>$44.00</span>
+                  </a>
+                  <span href="#">Black</span>
+                </div>
+    
+                <div class="product-overlay">
+                  <div class="social-icon dif">
+                      <a href="#">Add to wish list  <i class="fa fa-heart"></i></a>
+                      <a href="#">Compare  <i class="fa fa-repeat"></i></a>
+                      <a href="cart.html">Add to cart  <i class="fa fa-shopping-cart"></i></a>
+                  </div>
+                </div>
+
+              </div>              
+            </div>
+            <div class="col-lg-4">
+              <div class="item">
+                <a href="#" class="btn-new">New</a>
+                <div class="img">
+                  <a href="products - inside.html"><img src="images/best-sellers-1.png" alt=""></a>
+                </div>
+                <div class="bottom-top">
+                  <a href="#!">
+                    <p>Basic Crew Neck Tee</p>
+                    <span>$44.00</span>
+                  </a>
+                  <span href="#">Black</span>
+                </div>
+    
+                <div class="product-overlay">
+                  <div class="social-icon dif">
+                      <a href="#">Add to wish list  <i class="fa fa-heart"></i></a>
+                      <a href="#">Compare  <i class="fa fa-repeat"></i></a>
+                      <a href="cart.html">Add to cart  <i class="fa fa-shopping-cart"></i></a>
+                  </div>
+                </div>
+              </div>              
+            </div>
+            <div class="col-lg-4">
+              <div class="item">
+                <a href="#" class="btn-new">New</a>
+                <div class="img">
+                  <a href="products - inside.html"><img src="images/best-sellers-1.png" alt=""></a>
+                </div>
+                <div class="bottom-top">
+                  <a href="#!">
+                    <p>Basic Crew Neck Tee</p>
+                    <span>$44.00</span>
+                  </a>
+                  <span href="#">Black</span>
+                </div>
+    
+                <div class="product-overlay">
+                  <div class="social-icon dif">
+                      <a href="#">Add to wish list  <i class="fa fa-heart"></i></a>
+                      <a href="#">Compare  <i class="fa fa-repeat"></i></a>
+                      <a href="cart.html">Add to cart  <i class="fa fa-shopping-cart"></i></a>
+                  </div>
+                </div>
+            
+              </div>              
+            </div>
+            <div class="col-lg-4">
+              <div class="item">
+                <a href="#" class="btn-new">New</a>
+                <div class="img">
+                  <a href="products - inside.html"><img src="images/best-sellers-2.png" alt=""></a>
+                </div>
+                <div class="bottom-top">
+                  <a href="#!">
+                    <p>Basic Crew Neck Tee</p>
+                    <span>$44.00</span>
+                  </a>
+                  <span href="#">Black</span>
+                </div>
+    
+                <div class="product-overlay">
+                  <div class="social-icon dif">
+                      <a href="#">Add to wish list  <i class="fa fa-heart"></i></a>
+                      <a href="#">Compare  <i class="fa fa-repeat"></i></a>
+                      <a href="cart.html">Add to cart  <i class="fa fa-shopping-cart"></i></a>
+                  </div>
+                </div>
+              </div>              
+            </div>
+            <div class="col-lg-4">
+              <div class="item">
+                <a href="#" class="btn-new">New</a>
+                <div class="img">
+                  <a href="products - inside.html"><img src="images/best-sellers-2.png" alt=""></a>
+                </div>
+                <div class="bottom-top">
+                  <a href="#!">
+                    <p>Basic Crew Neck Tee</p>
+                    <span>$44.00</span>
+                  </a>
+                  <span href="#">Black</span>
+                </div>
+    
+                <div class="product-overlay">
+                  <div class="social-icon dif">
+                      <a href="#">Add to wish list  <i class="fa fa-heart"></i></a>
+                      <a href="#">Compare  <i class="fa fa-repeat"></i></a>
+                      <a href="cart.html">Add to cart  <i class="fa fa-shopping-cart"></i></a>
+                  </div>
+                </div>
+              </div>              
+            </div>
+            <div class="col-lg-4">
+              <div class="item">
+                <a href="#" class="btn-new">New</a>
+                <div class="img">
+                  <a href="products - inside.html"><img src="images/best-sellers-2.png" alt=""></a>
+                </div>
+                <div class="bottom-top">
+                  <a href="#!">
+                    <p>Basic Crew Neck Tee</p>
+                    <span>$44.00</span>
+                  </a>
+                  <span href="#">Black</span>
+                </div>
+    
+                <div class="product-overlay">
+                  <div class="social-icon dif">
+                      <a href="#">Add to wish list  <i class="fa fa-heart"></i></a>
+                      <a href="#">Compare  <i class="fa fa-repeat"></i></a>
+                      <a href="cart.html">Add to cart  <i class="fa fa-shopping-cart"></i></a>
+                  </div>
+                </div>
+              </div>              
+            </div>
+            <div class="col-lg-4">
+              <div class="item">
+                <a href="#" class="btn-new">New</a>
+                <div class="img">
+                  <a href="products - inside.html"><img src="images/best-sellers-2.png" alt=""></a>
+                </div>
+                <div class="bottom-top">
+                  <a href="#!">
+                    <p>Basic Crew Neck Tee</p>
+                    <span>$44.00</span>
+                  </a>
+                  <span href="#">Black</span>
+                </div>
+    
+                <div class="product-overlay">
+                  <div class="social-icon dif">
+                      <a href="#">Add to wish list  <i class="fa fa-heart"></i></a>
+                      <a href="#">Compare  <i class="fa fa-repeat"></i></a>
+                      <a href="cart.html">Add to cart  <i class="fa fa-shopping-cart"></i></a>
+                  </div>
+                </div>
+              </div>              
+            </div>
+            <div class="col-lg-4">
+              <div class="item">
+                <a href="#" class="btn-new">New</a>
+                <div class="img">
+                  <a href="products - inside.html"><img src="images/best-sellers-2.png" alt=""></a>
+                </div>
+                <div class="bottom-top">
+                  <a href="#!">
+                    <p>Basic Crew Neck Tee</p>
+                    <span>$44.00</span>
+                  </a>
+                  <span href="#">Black</span>
+                </div>
+    
+                <div class="product-overlay">
+                  <div class="social-icon dif">
+                      <a href="#">Add to wish list  <i class="fa fa-heart"></i></a>
+                      <a href="#">Compare  <i class="fa fa-repeat"></i></a>
+                      <a href="cart.html">Add to cart  <i class="fa fa-shopping-cart"></i></a>
+                  </div>
+                </div>
+              </div>              
+            </div>
+            <div class="col-lg-4">
+              <div class="item">
+                <a href="#" class="btn-new">New</a>
+                <div class="img">
+                  <a href="products - inside.html"><img src="images/best-sellers-3.png" alt=""></a>
+                </div>
+                <div class="bottom-top">
+                  <a href="#!">
+                    <p>Basic Crew Neck Tee</p>
+                    <span>$44.00</span>
+                  </a>
+                  <span href="#">Black</span>
+                </div>
+    
+                <div class="product-overlay">
+                  <div class="social-icon dif">
+                      <a href="#">Add to wish list  <i class="fa fa-heart"></i></a>
+                      <a href="#">Compare  <i class="fa fa-repeat"></i></a>
+                      <a href="cart.html">Add to cart  <i class="fa fa-shopping-cart"></i></a>
+                  </div>
+                </div>
+              </div>              
+            </div>
+            <div class="col-lg-4">
+              <div class="item">
+                <a href="#" class="btn-new">New</a>
+                <div class="img">
+                  <a href="products - inside.html"><img src="images/best-sellers-2.png" alt=""></a>
+                </div>
+                <div class="bottom-top">
+                  <a href="#!">
+                    <p>Basic Crew Neck Tee</p>
+                    <span>$44.00</span>
+                  </a>
+                  <span href="#">Black</span>
+                </div>
+    
+                <div class="product-overlay">
+                  <div class="social-icon dif">
+                      <a href="#">Add to wish list  <i class="fa fa-heart"></i></a>
+                      <a href="#">Compare  <i class="fa fa-repeat"></i></a>
+                      <a href="cart.html">Add to cart  <i class="fa fa-shopping-cart"></i></a>
+                  </div>
+                </div>
+              </div>              
+            </div>
+            <div class="col-lg-4">
+              <div class="item">
+                <a href="#" class="btn-new">New</a>
+                <div class="img">
+                  <a href="products - inside.html"><img src="images/best-sellers-2.png" alt=""></a>
+                </div>
+                <div class="bottom-top">
+                  <a href="#!">
+                    <p>Basic Crew Neck Tee</p>
+                    <span>$44.00</span>
+                  </a>
+                  <span href="#">Black</span>
+                </div>
+    
+                <div class="product-overlay">
+                  <div class="social-icon dif">
+                      <a href="#">Add to wish list  <i class="fa fa-heart"></i></a>
+                      <a href="#">Compare  <i class="fa fa-repeat"></i></a>
+                      <a href="cart.html">Add to cart  <i class="fa fa-shopping-cart"></i></a>
+                  </div>
+                </div>
+              </div>              
+            </div>
+            <div class="col-lg-4">
+              <div class="item">
+                <a href="#" class="btn-new">New</a>
+                <div class="img">
+                  <a href="products - inside.html"><img src="images/best-sellers-4.png" alt=""></a>
+                </div>
+                <div class="bottom-top">
+                  <a href="#!">
+                    <p>Basic Crew Neck Tee</p>
+                    <span>$44.00</span>
+                  </a>
+                  <span href="#">Black</span>
+                </div>
+    
+                <div class="product-overlay">
+                  <div class="social-icon dif">
+                      <a href="#">Add to wish list  <i class="fa fa-heart"></i></a>
+                      <a href="#">Compare  <i class="fa fa-repeat"></i></a>
+                      <a href="cart.html">Add to cart  <i class="fa fa-shopping-cart"></i></a>
+                  </div>
+                </div>
+              </div>              
+            </div>
+            <div class="col-lg-4">
+              <div class="item">
+                <a href="#" class="btn-new">New</a>
+                <div class="img">
+                  <a href="products - inside.html"><img src="images/best-sellers-2.png" alt=""></a>
+                </div>
+                <div class="bottom-top">
+                  <a href="#!">
+                    <p>Basic Crew Neck Tee</p>
+                    <span>$44.00</span>
+                  </a>
+                  <span href="#">Black</span>
+                </div>
+    
+                <div class="product-overlay">
+                  <div class="social-icon dif">
+                      <a href="#">Add to wish list  <i class="fa fa-heart"></i></a>
+                      <a href="#">Compare  <i class="fa fa-repeat"></i></a>
+                      <a href="cart.html">Add to cart  <i class="fa fa-shopping-cart"></i></a>
+                  </div>
+                </div>
+              </div>              
+            </div>
+            <div class="col-lg-4">
+              <div class="item">
+                <div class="img">
+                  <a href="products - inside.html"><img src="images/best-sellers-2.png" alt=""></a>
+                </div>
+                <div class="bottom-top">
+                  <a href="#!">
+                    <p>Basic Crew Neck Tee</p>
+                    <span>$44.00</span>
+                  </a>
+                  <span href="#">Black</span>
+                </div>
+    
+                <div class="product-overlay">
+                  <div class="social-icon dif">
+                      <a href="#">Add to wish list  <i class="fa fa-heart"></i></a>
+                      <a href="#">Compare  <i class="fa fa-repeat"></i></a>
+                      <a href="cart.html">Add to cart  <i class="fa fa-shopping-cart"></i></a>
+                  </div>
+                </div>
+              </div>              
+            </div>
+            <div class="col-lg-4">
+              <div class="item">
+                <div class="img">
+                  <a href="products - inside.html"><img src="images/best-sellers-2.png" alt=""></a>
+                </div>
+                <div class="bottom-top">
+                  <a href="#!">
+                    <p>Basic Crew Neck Tee</p>
+                    <span>$44.00</span>
+                  </a>
+                  <span href="#">Black</span>
+                </div>
+    
+                <div class="product-overlay">
+                  <div class="social-icon dif">
+                      <a href="#">Add to wish list  <i class="fa fa-heart"></i></a>
+                      <a href="#">Compare  <i class="fa fa-repeat"></i></a>
+                      <a href="cart.html">Add to cart  <i class="fa fa-shopping-cart"></i></a>
+                  </div>
+                </div>
+              </div>              
+            </div>
+            <div class="col-lg-4">
+              <div class="item">
+                <div class="img">
+                  <a href="products - inside.html"><img src="images/best-sellers-2.png" alt=""></a>
+                </div>
+                <div class="bottom-top">
+                  <a href="#!">
+                    <p>Basic Crew Neck Tee</p>
+                    <span>$44.00</span>
+                  </a>
+                  <span href="#">Black</span>
+                </div>
+    
+                <div class="product-overlay">
+                  <div class="social-icon dif">
+                      <a href="#">Add to wish list  <i class="fa fa-heart"></i></a>
+                      <a href="#">Compare  <i class="fa fa-repeat"></i></a>
+                      <a href="cart.html">Add to cart  <i class="fa fa-shopping-cart"></i></a>
+                  </div>
+                </div>
+              </div>              
+            </div>
+
+
+
+          </div>
+          <div class="product-footer">
+            <div class="row">
+              <div class="col-lg-6">
+                <nav class="my-4">
+                  <ul class="pagination justify-content-center">
+                      <li class="page-item"><a class="page-link bg-dark text-white" href="#!" >Prev</a></li>
+                      <li class="page-item"><a class="page-link text-dark" href="#!">1</a></li>
+                      <li class="page-item"><a class="page-link text-dark" href="#!">2</a></li>
+                      <li class="page-item"><a class="page-link text-dark" href="#!">3</a></li>
+                      <li class="page-item"><a class="page-link text-dark" href="#!">4</a></li>
+                      <li class="page-item"><a class="page-link bg-dark text-white" href="#!">Next</a></li>
+                  </ul>
+              </nav>                
+              </div>
+              <div class="col-lg-6">
+                <p class="py-4 text-end">Products from 1 to 12 of 80</p>
+              </div>
+            </div>           
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+
+<!-- --------------------------sideBar and products end-------------------------- -->
+
+
+
+
+<!-- --------------------------footer start-------------------------- -->
+
+<div class="footer">
+  <div class="container">
+    <div class="row">
+
+
+
+    <div class=" part2 col-lg-8 col-12 col-sm-12 col-md-12 col-xl-8 col-xxl-8">
+
+      <div class="row">
+
+        <div class="col-lg-3 col-6 col-sm-6 col-md-6 col-xl-3 col-xxl-3">
+          <div class="item2 company">
+            <h5>Menu</h5>
+            <ul>
+              <li><a href="#!">Home</a><li>
+              <li><a href="#!">Shop</a><li>
+              <li><a href="#!">About</a><li>
+              <li><a href="#!">Contacts</a><li>
+              <li><a href="#!">Journal</a><li>
+            </ul>
+          </div>
+          <br>
+          <br>
+          <div class="icons">
+            <span><a href="#!"><i class="fa fa-facebook" aria-hidden="true"></i></a></span>  
+            <span><a href="#!"><i class="fa fa-linkedin" aria-hidden="true"></i></a></span>  
+            <span><a href="#!"><i class="fa fa-instagram" aria-hidden="true"></i></a></span>  
+          </div>
+        </div>
+        <div class="col-lg-3 col-6 col-sm-6 col-md-6 col-xl-3 col-xxl-3 ">
+          <div class="item2 company">
+            <h5>Shop</h5>
+            <ul>
+              <li><a href="#!">Category  1</a><li>
+              <li><a href="#!">Category  2</a><li>
+              <li><a href="#!">Category  3</a><li>
+              <li><a href="#!">Category  4</a><li>
+              <li><a href="#!">Category  5</a><li>
+
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-6 col-sm-6 col-md-6 col-xl-3 col-xxl-3">
+          <div class="item2 company">
+            <h5>Help</h5>
+            <ul>
+              <li><a href="#!">Privacy Policy</a><li>
+              <li><a href="#!">Terms & Conditions</a><li>
+              <li><a href="#!">Special Shop</a><li>
+              <li><a href="#!">Shipping</a><li>
+              <li><a href="#!">Secure Payment</a><li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3 col-6 col-sm-6 col-md-6 col-xl-3 col-xxl-3 ">
+          <div class="item2 company">
+            <h5>Contact</h5>
+            <ul>
+              <li><a href="#!">(052) 611-5711</a><li>
+              <li><a href="#!">company@domain.com</a><li>
+              <li>575 Crescent Ave. Quakertown, PA 18951<li>
+
+            </ul>
+          </div>
+        </div>
+    </div>    
+
+    </div>
+
+
+    <div class="col-lg-4 col-12 col-sm-12 col-md-12 col-xl-4 col-xxl-4">
+      <div class="item p-4">
+        <div class="img m-2 text-left">
+          <a href="#!"><img src="images/Logo.png" alt=""></a>
+        </div>
+        <p>There are many variations of passages of Lorem Ipsum , but the majority have suffered alteration in some form.</p>
+
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          
+
+          <p>2020 Orebi Minimal eCommerce Figma Template by Adveits</p>
+      </div>
+    </div>
+
+
+
+  </div>
+</div>
+<!-- --------------------------footer end-------------------------- -->
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

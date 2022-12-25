@@ -1,0 +1,139 @@
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 320px) and (max-width: 575.98px) {  
+
+    #menu_bottom .menu-all input{
+        width: 200px;
+    }
+
+    #menu_bottom .icons{
+        top: 70px;
+    }  
+
+    #main_menu{
+        background-color: brown;      
+    }
+    
+    #main_menu ul li:hover .dropdown-link {
+        left: 10%;
+        top: 0;
+        width: 100%;
+      }  
+
+    #main_menu ul li a:hover:before{
+        width: 20%;
+    }
+
+
+    .add .add-main .item {
+        width: 170%;
+    }
+
+    .add .add-right-top .item {
+        width: 169%;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+
+    .add .add-right-bottom .item {
+        width: 169%;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+
+    .add .add-main .item{
+        height: 580px;
+    }
+
+    .add .add-main .item .add-main-text{
+        top: 280px;
+    }   
+    
+    .add .add-right-top .item .add-main-text{
+        padding-right: 10px;
+    }    
+    .add .add-right-bottom .item .add-main-text{
+        padding-right: 10px;
+    }    
+
+    .year-best-phone{
+        height: 400px;
+    }   
+    .year-best-phone .img img{
+        width: 50%;
+    }   
+    
+    .year-best-phone .phone-text{
+        padding: 0 5px;
+    }
+
+    .about .about-text p {
+
+        font-size: 25px;
+        line-height: 40px;
+
+    }    
+
+    #cart select{
+        margin-top: 50px;
+    }
+    #cart table{
+        margin-top: 50px;
+    }
+    #cart .cart-data{
+        margin-top: 50px;
+    }
+
+
+}
+
+
+
+
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 576px) and (max-width: 767px) { 
+
+    #menu_bottom .menu-all input{
+        width: 300px;
+    }
+
+    #menu_bottom .icons{
+        top: 70px;
+    }      
+ }
+
+
+
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 768px) and (max-width: 991px) { 
+    #menu_bottom .menu-all input{
+        width: 300px;
+    }
+
+    #menu_bottom .icons{
+        top: 70px;
+    }        
+ }
+
+
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 992px) and (max-width: 1199px) { 
+    #menu_bottom .menu-all input{
+        width: 400px;
+    }
+
+     
+ }
+
+
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1200px) and (max-width: 1400px) { 
+    #menu_bottom .menu-all input{
+        width: 500px;
+    }
+
+   
+ }

@@ -1,0 +1,245 @@
+@font-face {
+    src: url(../fonts/DMSans-Regular.ttf);
+    font-family: 'dm-sans-regular';
+
+    src: url(../fonts/DMSans-Medium.ttf);
+    font-family: 'dm-sans-medium';
+
+    src: url(../fonts/DMSans-Bold.ttf);
+    font-family: 'inter-regular';
+
+    src: url(../fonts/Inter-SemiBold.ttf);
+    font-family: 'dm-sans-bold';
+  }
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+}
+
+img{
+    vertical-align: middle;
+}
+
+.clr{
+    clear: both;
+}
+
+
+
+.sec-title{
+    font-size: 39px;
+    line-height: 51px;
+    font-family: 'dm-sans-bold';
+    color: #262626;    
+}
+.btn-shop{
+    width: 185px;
+    height: 50px;
+    background-color: #262626;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 65px;
+}
+
+.btn-new{
+    position: absolute;
+    top: 20px;
+    left: 26px;
+    width: 92px;
+    height: 35px;
+    background-color: #262626;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    line-height: 35px;
+}
+
+.offer-head{
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 50.8px;    
+}
+
+.offer-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.83px;    
+}
+
+.offer-discount{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;    
+}
+
+.page-title{
+    font-family: 'dm-sans-bold';
+    font-size: 49px;
+    line-height: 64px;
+    color: #262626;    
+}
+
+/* -------------product-colors-------- */
+.p-cat-1{
+    color: #000000;
+}
+.p-cat-2{
+    color: #FF8686;
+}
+.p-cat-3{
+    color: #7ED321;
+}
+.p-cat-4{
+    color: #B6B6B6;
+}
+.p-cat-5{
+    color: #15CBA5;
+}
+
+/* ----------------common css end-------------- */
+/* ----------------side bar start-------------- */
+
+
+
+
+.products-inside .item .img {
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+
+.products-inside .item .img img{
+    width: 100%;
+}
+
+#product-review{
+    border-bottom: 1px solid #ccc7c7;
+}
+
+#product-review a{
+    color: goldenrod;
+}
+
+#product-review p{
+    font-family: 'dm-sans-regular';
+    font-size: 14px;
+    line-height: 18px;
+    color: #767676;     
+}
+#product-review #review-p{
+    font-family: 'dm-sans-regular';
+    font-size: 14px;
+    line-height: 18px;
+    color: #262626;     
+}
+
+.products-inside table span{
+    font-family: 'dm-sans-bold';
+    font-size: 14px;
+    line-height: 18px;
+    color: #262626;  
+    padding: 10px; 
+    border: 1px solid #767676; 
+      
+}
+
+.wish-list-btn{
+    width: 185px;
+    height: 50px;
+    background-color: #fff;
+    color: #262626;
+    font-weight: 700;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 65px;
+    border: 1px solid #262626;
+    margin-bottom: 40px;
+}
+
+.status-table{
+    border-bottom: 1px solid #767676;
+}
+.buttons-section{
+    border-bottom: 1px solid #767676;
+    margin-bottom: 23px;
+}
+
+.feature a{
+    color: #262626;
+    font-size: 16px;
+    line-height: 23px;
+    font-family: 'dm-sans-bold';
+    margin-bottom: 23px;
+
+}
+
+.john-ford a{
+    color: goldenrod;
+}
+
+#review-form{
+    width: 75%;
+    margin-bottom: 50px;
+}
+
+#review-form label{
+    font-family: 'dm-sans-bold';
+    font-size: 16px;
+    line-height: 23px;
+    color: #262626;      
+}
+
+#review-form input, #review-form textarea{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #B6B6B6;
+    margin-bottom: 50px;
+}
+#review-form input::placeholder{
+    font-family: 'dm-sans-regular';
+    font-size: 14px;
+    line-height: 18px;
+    color: #767676;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.post-sub{
+    width: 200px;
+    height: 50px;
+    background-color: #262626;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 10px;
+}
+
+.review-title{
+    font-size: 20px;
+    line-height: 26px;
+    font-family: 'dm-sans-bold';
+    color: #262626;    
+}

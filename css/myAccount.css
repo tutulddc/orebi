@@ -1,0 +1,181 @@
+@font-face {
+    src: url(../fonts/DMSans-Regular.ttf);
+    font-family: 'dm-sans-regular';
+
+    src: url(../fonts/DMSans-Medium.ttf);
+    font-family: 'dm-sans-medium';
+
+    src: url(../fonts/DMSans-Bold.ttf);
+    font-family: 'inter-regular';
+
+    src: url(../fonts/Inter-SemiBold.ttf);
+    font-family: 'dm-sans-bold';
+  }
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+}
+
+img{
+    vertical-align: middle;
+}
+
+.clr{
+    clear: both;
+}
+
+
+
+.sec-title{
+    font-size: 39px;
+    line-height: 51px;
+    font-family: 'dm-sans-bold';
+    color: #262626;    
+}
+
+.item-title{
+    font-size: 25px;
+    line-height: 36px;
+    font-family: 'dm-sans-bold';
+    color: #262626;    
+}
+
+.btn-shop{
+    width: 185px;
+    height: 50px;
+    background-color: #262626;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 65px;
+}
+
+.btn-new{
+    position: absolute;
+    top: 20px;
+    left: 26px;
+    width: 92px;
+    height: 35px;
+    background-color: #262626;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    line-height: 35px;
+}
+
+.offer-head{
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 50.8px;    
+}
+
+.offer-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.83px;    
+}
+
+.offer-discount{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;    
+}
+
+.page-title{
+    font-family: 'dm-sans-bold';
+    font-size: 49px;
+    line-height: 64px;
+    color: #262626;    
+}
+.form-title{
+    font-family: 'dm-sans-bold';
+    font-size: 39px;
+    line-height: 51px;
+    color: #262626;    
+}
+.form-label{
+    font-family: 'dm-sans-bold';
+    font-size: 16px;
+    line-height: 23px;
+    color: #262626;     
+}
+
+/* -------------product-colors-------- */
+.p-cat-1{
+    color: #000000;
+}
+.p-cat-2{
+    color: #FF8686;
+}
+.p-cat-3{
+    color: #7ED321;
+}
+.p-cat-4{
+    color: #B6B6B6;
+}
+.p-cat-5{
+    color: #15CBA5;
+}
+
+/* ----------------common css end-------------- */
+/* ----------------myAccount css start-------------- */
+
+
+
+
+
+#features .f-head{
+    position: relative;
+    border-bottom: 1px solid #B6B6B6;
+}
+
+#features .f-head::before{
+    position: absolute;
+    content: '';
+    left: 4px;
+    bottom: 0;
+    width: 0;
+    height: 3px;
+    background-color: #beb7fa;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+
+#features .f-head:hover:before{
+    width: 89%;
+}
+#features .f-head:hover{
+    font-weight: 700;
+}
+/* ----------------contact css end-------------- */
+
