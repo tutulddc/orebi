@@ -206,7 +206,7 @@ img{
     -ms-transition: all linear 0.4s;
     -o-transition: all linear 0.4s;  
     margin-bottom: 20px;  
-    overflow:hidden;
+    overflow: hidden;
 }
 
 .products .item .product-overlay{
