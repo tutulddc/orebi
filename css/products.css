@@ -206,7 +206,7 @@ img{
     -ms-transition: all linear 0.4s;
     -o-transition: all linear 0.4s;  
     margin-bottom: 20px;  
-    overflow-y:hidden;
+    overflow:hidden;
 }
 
 .products .item .product-overlay{
@@ -229,7 +229,7 @@ img{
     -o-transition: all linear 0.4s;
     opacity: 0;
     visibility: hidden;
-    background: yellow;
+    border: 1px solid gray;
 }
 
 .products .item:hover .product-overlay{
