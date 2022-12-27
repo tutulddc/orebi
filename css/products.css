@@ -229,6 +229,7 @@ img{
     -o-transition: all linear 0.4s;
     opacity: 0;
     visibility: hidden;
+    background: yellow;
 }
 
 .products .item:hover .product-overlay{
